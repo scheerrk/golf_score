@@ -25,7 +25,7 @@ import { HomeComponent } from './components/home/home.component';
     MatToolbarModule,
     MatButtonModule,
     RouterModule.forRoot([
-      {path: '', component: LoginComponent},
+      {path: '', component: HomeComponent},
       {path: 'home', component: HomeComponent},
     ])
   ],
